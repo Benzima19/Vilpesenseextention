@@ -18,3 +18,10 @@ coverage/
 .env
 .env.*
 !.env.example
+
+# Internal planning & notes (never public)
+internal/
+ARCHITECTURE.md
+TASKS.md
+*.internal.md
+notes/

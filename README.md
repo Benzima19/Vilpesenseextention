@@ -1,6 +1,6 @@
 # VILPE Guardian
 
-**"Is my building OK?"** VILPE Guardian turns VILPE Sense moisture data into one clear answer per building area: **Healthy · Monitor · Action needed**. Each answer comes with a plain-language reason, a weather-aware forecast and a recommended next step.
+**"Is my building OK?"** VILPE Guardian turns VILPE Sense moisture data into one clear answer per building area: **Healthy · Attention · Action needed**. Each answer comes with a plain-language reason, a weather-aware forecast and a recommended next step.
 
 Built for the VILPE × Vaasa Hackathon 2026 (Junction).
 
@@ -14,16 +14,6 @@ VILPE Sense already measures temperature, humidity, mould index and fan speed in
 
 Over time this becomes the building's **Structure Passport**: a trusted moisture-health history.
 
-## Pilot site
-
-VILPE Express Store, Vantaa: flat roof (Katto 1–4), green roof (Viherkatto 1–2), crawl space (Hallin alapohja), and 51 roof leak sensors.
-
-## Docs
-
-- [ARCHITECTURE.md](ARCHITECTURE.md): system design, data model, rules, API, UI
-- [TASKS.md](TASKS.md): task-driven backlog and progress
-- [brand/](brand/): VILPE logo and design tokens
-
 ## Stack
 
-Vite · React · TypeScript · Tailwind · Recharts | Vercel Functions + Cron | Neon Postgres (Vercel Marketplace) | Open-Meteo | VILPE Sense public API
+React · TypeScript · Vercel · Postgres · Open-Meteo weather data
