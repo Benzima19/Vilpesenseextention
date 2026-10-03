@@ -1,0 +1,20 @@
+# Source material (client data, not for the repo)
+docs/
+*.xlsx
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Node / build
+node_modules/
+dist/
+.turbo/
+.vercel/
+coverage/
+
+# Env
+.env
+.env.*
+!.env.example
