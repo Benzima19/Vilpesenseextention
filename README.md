@@ -17,3 +17,14 @@ Over time this becomes the building's **Structure Passport**: a trusted moisture
 ## Stack
 
 React · TypeScript · Vercel · Postgres · Open-Meteo weather data
+
+## Development
+
+Requires [uv](https://docs.astral.sh/uv/) and Node 20+.
+
+```bash
+make install    # Python + web dependencies
+make dev-api    # API on http://localhost:8000
+make dev-web    # app on http://localhost:5173
+make check      # lint, tests and build
+```

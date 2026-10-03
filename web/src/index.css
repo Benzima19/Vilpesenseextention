@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+/* VILPE brand tokens (full design system lands in T40). */
+@theme {
+  --color-vilpe-blue: #004f9e;
+  --color-vilpe-red: #de0a14;
+  --color-vilpe-navy: #01273e;
+  --color-paper: #f4f5f2;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-vilpe-navy);
+}

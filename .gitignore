@@ -25,3 +25,11 @@ ARCHITECTURE.md
 TASKS.md
 *.internal.md
 notes/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
